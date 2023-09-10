@@ -1,4 +1,5 @@
-import java.util.*;
+/* 
+  import java.util.*;
   
   public class CountDigitInNum{
   
@@ -15,4 +16,22 @@ import java.util.*;
         System.out.println(d);
     }
    }
+  }
+  */
+
+  // Count digits in number
+
+import java.util.Scanner;
+
+public class CountDigitInNum {
+    public static void main(String[] args) {
+
+      //Print
+      System.out.println("Hello World");
+
+      //Scan
+      Scanner scn = new Scanner(System.in);
+      int a = scn.nextInt();
+      System.out.println(a);
+    }
   }
